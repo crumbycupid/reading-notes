@@ -1,4 +1,24 @@
 Your friend (DNS server) finds the address to the party.
 Your friend(The browser) ask if you may have a dink(HTTP request message). Good thing you weren't tardy.
-The host(server) abliges, and whips up a drink to give to you (sends website files) She wa.
-Your friend(the brower) then hands you your drink (assembles the website and displays it)
+The host(server) abliges, and whips up a drink to give to you (sends website files) You got the number.
+Your friend(the brower) then hands you your drink (assembles the website and displays it).
+
+2. Files are parsed first by HTML, then CSS, then JS.
+3. You can find images on the web, primarily by image search, and using ones with no creative commons liscense
+4. Strings are lines of words, and numbers are just numbers.
+5. Variables store values. The are important, because they allow you to do dynamic things while coding.
+
+HTML
+
+1. An attribute provides metadata, or work
+2. Anatomy of an element. You have your opeining and closing tags at the beggining and end, and your content between the tags.
+3. A section defines a specific section. An article defines the independent content
+4. <!DOCTYPE html>, <html>, <head>, <body>, <meta>, <title>
+5. Helps display the most relevant results, as well as being able to understand the topic and content of pages.
+6. Meta tag is used to specify the character set, which can identify a multitude of languages.
+
+1. Determine the objective is the first step to designing a website
+2. The most important question to answer is what do I want to accomplish?
+
+1. Use h1 over span to display top level heading, because h1 is a block element, and span i an inline element.
+2. Semantic tags make elements easy to read and understand, especially if we are coming back to a code, or reading one. 
