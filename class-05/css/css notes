@@ -1,0 +1,49 @@
+
+CSS SELECTORS
+
+/* select any span that has a parent div */
+div span{
+  background-color: orange;
+  
+  div > span {
+    background-color: pink;;
+    }
+    
+    section ~ span (sibling selector) general sibling selector
+      will select any sibling span of a selector
+      
+    section + span ( only span directly afer) adjacent sibling selector
+      will select any sibling span directly after selector
+    
+first-child (psuedo selector)
+nth-child(x) 
+
+hover
+changes action when cursor hovers over element
+
+before and after
+ex. 
+
+ul::before {
+  content: 'ul::before';
+}
+ ul::after {
+   content: 'ul::after';
+ }
+ 
+ CSS LAYOUT
+ 
+ margin: 5rem, auto, 2rem, auto 
+ (example...works clockwise starting at the top
+ top, right, bottom, left)
+ 
+ ex.
+ border-width:
+ border-style:
+ border-color: (has a default, and will show up alone. others will not)
+ 
+ borders: 5px, 100px, 5px, 100px. same applies. top, right,bottom, left
+ or just submit first two numbers, as the bottom and left will mirror, top and right
+ 
+ clear fix
+ 
