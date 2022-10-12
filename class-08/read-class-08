@@ -1,0 +1,28 @@
+This topic matters as it relates to this module, because we are creating objects, contatiners, and tables of information. This seems to be a way of 
+efficiently postioning these things. 
+
+Learn CSS - Flexbox
+
+1. Flexbox is designed for one-dimensional content. Explain what this means.
+  It only deals with lay-out in one direction at a time. (columns or rows.)
+
+2. Explain the difference between the main axis and cross axis.
+  The main axis moves along the direction of your flex direction property.
+  The cross axis moves in the other direction. So if your main axis is a row, then your cross axis 
+   is a column. 
+
+3. How can using certain properties of flexbox negatively impact accessibility?
+  Yes. Using order can fix things being out of order in a document, which is problematic, if logically, they should 
+  be in a different order.
+
+CSS Layout - Flexbox
+
+Read up to “Flex-Flow Shorthand”
+
+1. What are some advantages of using flexbox over float?
+  Flexbox makes it much easier to postion groups of content over using float, such as 'vertically centering a block of content inside its parent element',
+  and 'making the children of a container take up an equal amount of space, regardless of how much space is available.'
+  
+2. How does this topic connect with your long term goals?
+ This topic connects with my longterm goals, because it will allow me to more easily and efficient style and position groups of information on any
+ webpage I create. 
