@@ -1,0 +1,33 @@
+This topic informs on how to add more usability to a webpage. 
+
+HTML Forms
+
+Your first Web Form. How To Structure A Web Form.
+
+1. Why are forms so important in web development?
+  Forms are points of interaction for the user and server. It allows for things like templates to be updated, as
+  well as enter data for processing and storage. It's important, so that the user may be able to make updates or input information to be processed
+  on their end. 
+2. When designing a form, what are some key things to keep in mind when it comes to user experience?
+  Prioritizing and readability. Should be thinking about what comes first, next and last. Pay attention to not expose the full list at once, if 
+  the form is long. Leave optional thing at the end. To name a few. 
+3. List 5 form elements and explain their importance.
+  <fieldset> Create groups of widgets that share the same purpose. 
+  <legend> Label of the fieldset, explaining whats inside. 
+  <label> Formal way to define a label for an HTML form widget. 
+
+
+Learn JS
+
+Introduction To Events.
+
+1. How would you describe events to a non-technical friend?
+  I would describe an event as being stuck at redlight. When the light turns green, it signals the event, allowing the driver to proceed through
+  the light. 
+2. When using the addEventListener() method, what 2 arguments will you need to provide?
+  The name of the event, and a funciton to handle the even. 
+3. Describe the event object. Why is the target within the event object useful?
+  Its a parameter, automatically passed to event to event handlers to provide extra features and information. 
+4. What is the difference between event bubbling and event capturing?
+  Event bubling triggers on the inner most event of target element, then trickles to it's ancerstors. 
+  Event capturing is when the event goes from the outermost element to the target element. 
