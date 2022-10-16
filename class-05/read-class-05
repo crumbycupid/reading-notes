@@ -2,17 +2,43 @@ HTML Media
 
 Using Images In HTML. Read Common Image Types and Choosing Image Formats.
 
-What is a real world use case for the alt attribute being used in a website?
-How can you improve accessibility of images in an HTML document?
-Provide an example of when the figure element would be useful in an HTML document.
-Describe the difference between a gif image and an svg image, pretend you are explaining to an elder in your community.
-What image type would you use to display a screenshot on your website and why?
+1. What is a real world use case for the alt attribute being used in a website?
+  The alt attribute is for accesibility. Allows people, who for whatever reason, may not be able to se an image on a webpage, 
+  get text content for what the image is, or for a reader to read what the image would be, for blind people.
+  
+2. How can you improve accessibility of images in an HTML document?
+  Add alt text. Avoid text in images. 
+
+3. Provide an example of when the figure element would be useful in an HTML document.
+  When its needed to semantically oraganize the content of things such as images onto a webpage. Its a semantic container for figures, 
+  and can clearly link the figure to a caption for greater accesability. 
+
+4. Describe the difference between a gif image and an svg image, pretend you are explaining to an elder in your community.
+  A gif uses pixels, which are small blokcs of color to create an image. You put a lot of them together, at different places to create an image. 
+  An svg uses math formulas to create an image. It can be scaled up and down, and the image will still look the same, because it is being put 
+  together with math. A gif may become distorted at different sizes, because you 
+
+5. What image type would you use to display a screenshot on your website and why?
+  I would use a jpeg. It is a smaller file size, and is commonly used for such images. 
+
 Learn CSS
 
 Using Color in CSS. Styling HTML Text Elements
 
-Describe the difference between foreground and background colors of an HTML element, pretend you are talking to someone with no technical knowledge.
-Your friend asks you to give his colorless blog website a touch up. How would you use color to give his blog some character?
-What should you consider when choosing fonts for an HTML document?
-What do font-size, font-weight, and font-style do to HTML text elements?
-Describe two ways you could add spacing around the characters displayed in an h1 element.
+1. Describe the difference between foreground and background colors of an HTML element, pretend you are talking to someone with no technical knowledge.
+  Foreground color is used to color whats "on" an image, such as it's text. Background color is used to color whats behind the image, i.e. the 
+  background. 
+
+2. Your friend asks you to give his colorless blog website a touch up. How would you use color to give his blog some character?
+  I would figure out what the focus on his blog was. The figure out what colors would go with the theme. Make sure I'm using complimentary colors
+  and there are no contradictions, or things that will get lost or be hard to read.
+
+3. What should you consider when choosing fonts for an HTML document?
+  You should consider what color you would want the font to use. Also, whether the font is web safe or not. If using a specialized font, what would you
+  like for other browsers to default to if the font is availabe, i.e."backup font".
+  
+4. What do font-size, font-weight, and font-style do to HTML text elements?
+  Font-size, changes the actual size of the font. Font-style, is used to turn italic on or off. Font-weight is used to make content bold or not. 
+
+5 .Describe two ways you could add spacing around the characters displayed in an h1 element.
+  You could adjust the letter-spacing, and or word-spacing. 
