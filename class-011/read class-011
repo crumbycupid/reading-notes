@@ -1,0 +1,41 @@
+This lesson is important, because it seems almost every website has some form of audio and or video content. Also, learning the grid, is a key
+tool in order layout your website. Knowing these methods will help create better web pages. 
+
+Video and Audio Content
+
+1. Explain how the ability to use video and audio on the web has evolved since the early 2000s.
+In the early 2000s video and audio were ran by pug in technologies such as flash, and silverlight. 
+
+2. Describe the use of the src and controls attributes in the <video> element.
+  The src attribute gives the source information of the video, the same as it works with the img elembent. The controls attribute
+  gives a way of controling the video. 
+
+3. Why is it important to have fallback content inside the <video> element?
+  Its important to have fallback content because the video may not play or be supported by a browser. So for accessibility, 
+  This will give a description, and maybe even a link to the source of the video so that it may be played from there. 
+
+4.Write a very short story where <audio> and <video> are characters.
+
+A Complete Guide To Grid
+
+1. How does Grid layout differ from Flex?
+  Grid layout differs from flex, is that flex has a one directional flow, while grid is a two dimentional grid based layout. 
+2. Grid container, grid item, and grid line are a few important terms to understand when using Grid. Please describe these terms in a few
+sentences.
+  Grid container is the elemement on which the grid is displayed. 
+  Grid item is the children or direct descendents of the grid container. 
+  Grid line is the dividing lines that make up the structure of the grid. 
+
+Responsive Images
+
+1. Besides making a site visually appealing across different screen sizes, why should developers make images responsive?
+  Making responsive images, improves user experience and load time, gives the right image for the size screen being viewed, and delivers
+  optimal file size. 
+
+2. Define the following <img> attributes srcset and sizes. Write an example of how they are used.
+  srcset defines the images that will be chosen between, as well as the sizes. Sizes decides a set of media conditions, and determines, which
+  image will be best to used, based on the values that we already set.
+
+3. How is srcset more helpful for responsive images than CSS or JavaScript?
+  Browsers preload images, before the main parser begins to read the css and js. This is bad because the wrong image could begin, and may already have 
+  loaded in, by the time the css and js has been interpreted. Then the correct image would need to be loaded in, which creates longer load times. 
