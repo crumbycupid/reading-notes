@@ -1,0 +1,28 @@
+CSS Transforms
+
+1. What does a CSS transform allow the developer to do to an element?
+  Elements may be distorted, transformed, and rotated. 
+
+2. Provide an example of a transform and how you could see that being used on a website.
+  You could use a scale transform, that could act in the same manner as putting an element in
+  a grid, instead, it is its own independ thing. 
+  
+CSS Transitions & Animations
+
+1. What does a CSS transition allow the developer to do to an element?
+  It allows the dev to change the appearance, and behavior of an element, whenever a stage
+  change occurs. 
+  
+2. How does a CSS animation differ from a CSS transition?
+  Transitions are good for single state changes. Animations, are good when multiple states
+  are needed. 
+
+8 simple CSS3 transitions that will wow your users
+
+1. What are some benefits to using CSS transitions on websites?
+  You can more easily format changes, have faster page speed, and have a better overall 
+  UX.
+
+2. How this topic fit in with your long-term goals?
+  This topic allow tools to make the pages I create more interactive and "fun". It will also help
+  my pages run smoother. 
