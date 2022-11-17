@@ -1,0 +1,40 @@
+This lesson show us functional programming as opossed to object oriented programming. 
+
+Functional Programming Concepts
+
+What is functional programming?
+Using functions insted of objects to create clean language. 
+
+What is a pure function and how do we know if something is a pure function?
+A pure function takes some input and returns some output, based on that input. Same input always returns
+the same output. 
+
+What are the benefits of a pure function?
+Small, precise, simple, safe, easy to reuse. 
+
+What is immutability?
+Data or objects should not be changed or modified after they are created. 
+
+What is Referential transparency?
+A function call can be replaced by its value, or another referentially transparent call with the same result. 
+
+
+Videos
+
+Node JS Tutorial for Beginners #6 - Modules and require()
+
+What is a module?
+A simple or complex funcionality organized in single or multiple js files which can be reused. 
+(a JS file)
+
+What does the word ‘require’ do?
+Includes external modules that exist in seperate files. 
+
+How do we bring another module into the file the we are working in?
+require(./'')
+
+What do we have to do to make a module available?
+module.exports and set it equal to whatever function you plan on using. 
+
+tutorialsteacher.com
+sitepoint.com
