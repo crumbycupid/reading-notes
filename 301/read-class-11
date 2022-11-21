@@ -5,8 +5,12 @@ nosql vs sql
 
 Fill in the chart below with five differences between SQL and NoSQL databases:
 
-SQL	NoSQL
- 	 
+SQL	                                                   NoSQL
+relational model, tables and colums                     data documents
+vertically scalable                                     horizontally scalable 
+set query language, easy queries                       complex queries because there is no set language
+will need a larger server for larger data amounts.      additional servers may be added to existing ones. 
+best for complex queries                                best for unstructured data.
  	 
  	 
  	 
