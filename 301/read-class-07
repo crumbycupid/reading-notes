@@ -1,25 +1,37 @@
 How I explained REST to my brother
 
 Who is Roy Fielding?
-
+He helped write the first web servers. 
 
 Why don’t the techniques that we use today work well when we need to be able to talk to all of the machines in the world?
+They weren't originally designed to be used that way. They were designed to just talk to one machine, or a small group of machines, not
+all the machines in the world.
+
 What is the HTTP protocol that Fielding and his friends created?
+It applies verbs to nouns. 
+
 What does a GET do?
+It gets the human readable, and machine readable information. 
+
 What does a POST do?
+Allows one system to add something to another. 
+
 What does PUT do?
+Allows a system to replace something in another .
+
 What does PATCH do?
+Applies a partial update. 
 
 
 API Keys
 Request a personal API key from the following APIs. You should receive these in your email within a few hours, often within minutes. Please request these keys prior to lecture to allow adequate time because you will need them in order to complete your lab assignment. Note: do not post your API keys in the Canvas discussion or on GitHub. Save them in a secure place.
 
-Geocoding API
+Geocoding API 
 
-Did you get your API key?
+Did you get your API key? y
 Weather Bit API
 
-Did you get your API key?
+Did you get your API key? y
 Yelp API Docs
 
 Did you get your API key?
