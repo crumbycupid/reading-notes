@@ -1,0 +1,27 @@
+In your own words, describe what each group of status code represents:
+
+100’s = Informational status code. The header has been recieved. 
+200’s =Success code. The request was accepted. 
+300’s =Redirection code. The resource requested isnt at the requested destination. 
+400’s =Client code. Invalid request the client sent to the server. 
+500’s =Server codes. Some problem with the server. 
+What is a status code 202? Accepted. The request was valid, but the processing will finish sometime in the future. 
+What is a status code 308? Permanent redirect. Use another URL to access the resource as the current is no longer working.
+What code would you use if an update didn’t return data to a client? 204 no content. 
+What code would you use if a resource used to exist but no longer does?410 gone. 
+What is the ‘Forbidden’ status code? 403. The client has authorized, or doesn't need to authorize itself, but still has no permission
+to access the server. 
+
+Videos
+Build A REST API With Node.js, Express, & MongoDB - Quick - First 20 minutes
+
+Why do we need to pull our MongoDB database string out of our server and put it into our .env?
+We will be using somthing thats not our local server when deploying the site. 
+What is middleware? Code that runs when the server gets a request but before it gets passed to routes. 
+What does app.use(express.json()) do? Allows server to use express.json, accepting it as a body. 
+What does the /:id mean in a route? Its a parameter that we can get by typing request.params.
+What is the difference between PUT and PATCH? Put revamps the entire resource. Patch, transforms partial data. 
+How do you make a default value in a schema? use the default name in the schema, then enter the value. 
+What does a 500 error status code mean? Generic code. Server encountered an condition preventing it from fullfilling its request. 
+What is the difference between a status 200 and a status 201? 200 the request was recieved and is being processed. 201, the request was successful, 
+and the resource was created. 
