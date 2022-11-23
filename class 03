@@ -1,0 +1,19 @@
+This topic is important because it dives deeper into more complex html, css, and js coding. 
+
+
+1. Use an unordered list, when you want to list items in no particular order. 
+2. use css list style type to change ul list bullets
+3. You should use an ordered list if the order matters. If you change the list items around and it 
+  changes the meaning, then use an ordered list. If not, a ul may be used. 
+4. i for lowercase roman numerals, I for upercase roman numerals.
+
+1. Pimp Paddy McDaddy keeps a close buffer on the world he created. But his wife Marge has him boxed in, keeping
+  a buffer on him AND the world. 
+2. Content box, padding box, boarder box, margin box.
+
+1. strings, numbers, objects, and other arrays
+2. No. not all items are people
+3. x = f()assignment, x += f()addition, x -= f()subtraction, x *= f()multiplication, x /= f()division
+4. 10falsedog. string the elements together.
+5. If im creating a prompt, and I want a true or false answer to deliver a different alert, then I would want to use a conditional statement.
+6. Loops allow the same thing to be done over and over again

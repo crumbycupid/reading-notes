@@ -1,0 +1,36 @@
+This assignment gives me a better understanding of objects and the DOM. Objects will help me group together large quantities of information, just as a
+store, and the DOM helps me to understand how Java Script is able to function.
+
+1. How would you describe an object to a non-technical friend you grew up with?
+  I would describe an object as a box full of a lot of different things, no matter what they may be, that just serves as a container for said objects. 
+
+2 .What are some advantages to creating object literals?
+  Object literals are easily reusable, and you may encapsulate the code, preventing clashing of variable or function names. 
+
+3. How do objects differ from arrays?
+  Objects represent things, while arrays create and store lists of data in single varibles. 
+
+4. Give an example for when you would need to use bracket notation to access an object’s property instead of dot notation.
+  If an object property is held in a variable, then you would need to use bracket notation over dot notation. 
+
+5. Evaluate the code below. What does the term this refer to and what is the advantage to using this?
+const dog = {
+  name: 'Spot',
+  age: 2,
+  color: 'white with black spots',
+  humanAge: function (){
+    console.log(`${this.name} is ${this.age*7} in human years`);
+  }
+}
+
+This refers to the current object the code is being written inside. It allows you to use the same method definition for every object you create. 
+
+Introduction To The DOM
+
+1. What is the DOM?
+  The document object model(DOM) a programming interface for web models, representing the page, so that programs may change the document structure, style,
+  and content. 
+
+2. Briefly describe the relationship between the DOM and JavaScript.
+  The DOM is a Web API used to build Websites, not a programming language like Java Script. Java Script need DOM in order to have a notion webpages, html
+  documents, svg documents, and their component parts. 

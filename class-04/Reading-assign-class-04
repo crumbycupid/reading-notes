@@ -1,0 +1,62 @@
+This topic is important as it expands on a few key coding concepts and skills that will help my coding career.
+Also, the section on pair programming gives incite on the importance of coding with someone else. 
+
+Creating Hyperlinks
+
+1. To create a basic link, we wrap text or other content inside what element?
+  <a>element, using a href attiribute
+
+2. The href attribute contains what information?
+  The href(hypertext reference) attribute contains the web address.
+  
+3. What are some ways we can ensure links on our pages are accessible to all readers?
+  You may add a titile attribute, which can contain whatever information is deemed relevant about the link, when you hover over the
+  link address.
+  
+CSS Layout: Normal Flow/Positioning
+
+1.  What is meant by “normal flow”?
+    The way webpage elements lay themselves out if you haven't changed their layout.
+  
+2.  What are a few differences between block-level and inline elements?
+    Block level elements fill all available in line space of the parent level element containg it. In line elements fill up
+    space relative to the size of their contents. In block level elements, each new element will appear on a new line under 
+    the previous, forming a block. For inline level elements, each new element sits on the same line as the previous element.
+  
+3.  ___ positioning is the default for every html element.
+    Static
+  
+4.  Name a few advantages to using absolute positioning on an element.
+    You can create isolated features that don't interfere with other features on the page.
+    They also are postioned relative to the containing element, rather than the doc flow.
+  
+5.  What is a key difference between fixed positioning and absolute positioning?
+    Fixed positioning fixes a element releative to the visual position on the viewport. Absolute positioning, fixes an element
+    in place based on its nearest postioned ancestor.
+  
+Learn JS
+
+1.  Describe the difference between a function declaration and a function invocation.
+    Function declaration is defining a function and storing it. Function invocation is running the function.
+
+2.  What is the difference between a parameter and an argument?
+    Parameters and arguments are the same thing. 
+  
+6 Reasons for pair programming
+
+1. Pick 2 benefits to pair programming and reflect on how these benefits could help you on your coding journey.
+
+  Greater Efficiency
+    Pair programming may take longer, but i think that it will produce better results and less mistake, as two heads are better
+    than one. Fatigue may set in and one person may miss something that the next person may pick up on. Also, this will generate
+    less re-work.
+  Engaged Collaboration
+    Staying focused and engaged is easier, when someone is next to you, while you code. You're more inclined to stay focused, and
+    to not have your attention slip to distractions if someone is there with you. It also make the experience more engaging and 
+    interactive. You have someone present to ask questions to, collab with and enjoy the process with. 
+
+
+##THINGS I WANT TO KNOW MORE ABOUT
+flow positioning, and java functions
+
+  

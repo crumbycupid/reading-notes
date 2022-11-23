@@ -1,0 +1,67 @@
+This will help me to understand the differences between these two databases, 
+as I will use them in the future. 
+
+nosql vs sql
+
+Fill in the chart below with five differences between SQL and NoSQL databases:
+
+SQL	                                                   NoSQL
+relational model, tables and colums                     data documents
+vertically scalable                                     horizontally scalable 
+set query language, easy queries                       complex queries because there is no set language
+will need a larger server for larger data amounts.      additional servers may be added to existing ones. 
+best for complex queries                                best for unstructured data.
+ 	 
+ 	 
+ 	 
+What kind of data is a good fit for an SQL database?
+Complex query data.
+
+Give a real world example.
+Dates, and times. 
+
+What kind of data is a good fit a NoSQL database?
+structured, semi structure, and 
+
+Give a real world example.
+document data bases, key value databases
+
+Which type of database is best for hierarchical data storage?
+sql
+
+Which type of database is best for scalability?
+nosql
+
+
+
+Videos
+sql vs nosql (Video)
+
+What does SQL stand for?
+Structured query language.
+
+What is a relational database?
+a database where data is organized into predefined relationships. 
+
+What type of structure does a relational database work with?
+tables, rows and columns
+
+What is a ‘schema’?
+a list of logical structures of data. 
+
+What is a NoSQL database?
+a non tabular database.
+
+How does it work?
+It stores data in documents rather than tables
+
+What is inside of a MongoDB database
+data records as documents, gathered as collections. 
+
+Which is more flexible - SQL or MongoDB? and why.
+MongoDB, it allows different structures, and can use a format that best fits the data. 
+
+What is the disadvantage of a NoSQL database?
+They dont support ACID (atomicity, consistency, isolation, durability).
+
+

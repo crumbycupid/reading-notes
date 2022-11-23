@@ -1,0 +1,38 @@
+what comes first in Java
+  
+  
+ARRAY METHODS
+  'us strict'
+
+let months = ['January', 'February', 'March', 'April', 'May', 'June', 'August'] 
+console.log(months)
+
+
+
+
+
+//ARRAY METHODS
+//funcitonal logic that works with all arrays
+
+//pop()
+months.pop()
+console.log(months);
+
+//pop removes and item from the end of an array
+
+//shift()
+// removes the fist element of an array and reorder all elements afterwards
+
+//push
+// adds an element to the end of an array
+
+// unshift
+//insert element into front of array and reorder all elements afterwards
+
+// splice
+//splice(start index number of items to remove and what to add if any)
+
+months.splice(2,1 'March')
+
+
+//months.push('')

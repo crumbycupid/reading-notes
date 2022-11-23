@@ -1,0 +1,28 @@
+
+HTML
+
+1. Its important to use semantic elements in our HTML in order to keep it simple but specfic at the same time, so that we know what it is we are looking at.
+  having an element named "color" is easier to understand, coming back to a code than "T1" if im listing colors.
+2. There are six levels of headings in HTML. The "highest/most important" being <h1>
+3. Subcript can be used for things like chemical formulas. Superscript can be used for things such as footnotes.
+4. Title
+
+CSS
+1. External stylesheet. Internal stylesheet. Inline stylesheet.
+2. It is less efficient for maintenence, and it combines CSS code with HTML making the document more difficult to read.
+3.   1. h2
+     2. color, padding
+     3. black, 5px
+
+JS
+1. A character string
+2. Addition, subtraction, assignment, strict equality. 
+3. A function can be used to solve a variety of real world problems. One being a simple mathematical problem such as 5 * 5 =25
+
+Conditionals
+1. An if statement checks a condition or comparision statement, and if it returns true or false then the code block will execute.
+2.If serves as the test. If the variable and the string return true, then the first block of code runs. If it is false, then the second block 
+  after the else statement run. 
+3. Strict Equality, less than, greater than.
+4. &&Allows two or more expressions to be chained together so that all must inividually evaluate as true to make the whole expression true. 
+   ||Allows two or more expressions to be chained together so that one or more must individually evaluate as true, to make the whole expression true.
