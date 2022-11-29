@@ -1,0 +1,35 @@
+Reading
+What is OAuth
+
+What is OAuth?
+Third party, user-agent, delegated authorization. 
+
+Give an example of what using OAuth would look like.
+Uising another websites framework to auhtorize a users login. 
+
+How does OAuth work? What are the steps that it takes to authenticate the user?
+one site connects to the other on behalf of the user. second websites generates a token and secret unique to the user and the current transaction
+token and secret give to users client software. token and secret presented to auth provider. client authenticated. user approves transaction. 
+user given approved access token. token given to first website. first site gives token to second site on behalf of user. transaction successfully
+complteted. 
+
+What is OpenID?
+authentication.
+
+Authorization and Authentication flows
+
+What is the difference between authorization and authentication?
+authentication is user providing ownership of identity. athorization is letting a subject access the resources
+after authentication. 
+What is Authorization Code Flow?
+flow of authorization on the server side. 
+What is Authorization Code Flow with Proof Key for Code Exchange (PKCE)?
+authorization code flow for single page apps. 
+What is Implicit Flow with Form Post?
+used for public clients. 
+What is Client Credentials Flow?
+for machine to machine apps, authorizing the client
+What is Device Authorization Flow?
+allows user to authenticate from a seperate device, rather than the input constrained one they may be using. 
+What is Resource Owner Password Flow?
+user provides credentials using an interactive form. 
