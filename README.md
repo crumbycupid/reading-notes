@@ -1,11 +1,8 @@
-# crumbycupid.github.io
-crumbycupid-patch-1
-<body>
-<h2>201 Reading Notes</h2>
+# Reading Notes
+Reading notes from lectures and assignements for Code Fellows
 
+##Code 201 - Foundations of Software Development
 
-201 Reading Notes
+##Code 301 - Intermediate Software Development
 
-301 Reading Notes
-
-401 Reading Notes
+##Code 401 - Advanced Software Development
