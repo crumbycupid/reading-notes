@@ -1,0 +1,6 @@
+SQL
+  Structured Query Language, allows for the access and manipulation of databases. You may create, retrieve, update and delete information from
+  databases with this language, using queriries or types of code used to find whatever data you may be looking for or perform a variety of tasks
+  in the database. 
+  
+Relational Databases are databases where the information is organized in relational columns and rows in order for organization.   
