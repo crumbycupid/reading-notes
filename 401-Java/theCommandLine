@@ -5,3 +5,40 @@ The Command Line
   
 Basic Navigation
   There are different commands that may be inputed to the command line to navigate the system. 
+  PWD(print working directory) tells us the current directory we are working in. 
+  Absolute paths denote a location in relation to the root(denoted with a /)
+  Relative paths give a location based on our current location in the system and are noted denoted with a (/).
+    ~ is a shortcut to the home directory. 
+    . is a reference to the current directory. 
+    .. is a reference to the parent directory. 
+    cd is for change directory and is used to change directories. Running cd without a path returns to the home directory. 
+    tab completion completes the action of the intended path, without having to type the full path, by pressing tab after typing a few words of the
+      path. 
+      
+More about files 
+  Extensions are a set of 2-4 characters at the hard stop of a file name, telling what kind of file it is. Linux is extentionless, meaning it ignores
+  the file extention and looks into the file to see what type of file it is. 
+  
+  Linux is case sensitive. You may have many files of the same name, with different case varieties. 
+  Spaces are valid in the command line as a file path, but need to be used in conjuntion with single or double quotes, or with an escape character, 
+  i.e. backslash (\).
+  
+  Hidden files and directories begin with a full stop (.). Simply name a file, begging with a period(full stop) to make it hidden. 
+  
+Manual Pages
+  Manual pages are a set of pages explaining every command available to be used on the sytem, what they do, how to run them, and what commands they 
+  accept. 
+    Key word searches help to find a command of whose name you may not know, but know what you want to do. Type the key words and it may help you find 
+    command. 
+    
+File Manipulation
+  Organize files in as elegant a way as possible taking care to not dump every file at the base of the main directory. 
+  
+  mkdir - creates a new directory. 
+  rmdir - removes a directory. 
+  touch - will create a blank file of that name, if it doesn't exist. 
+  cp - copies a file or directory. 
+  mv - moves a file or directory
+  rm -r - is used to remove files or directories which are not empty. 
+    
+  
