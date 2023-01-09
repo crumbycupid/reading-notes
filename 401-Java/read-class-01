@@ -1,0 +1,14 @@
+This lesson is important to learn the basics of Java. To learn about expressions, statements, and code blocks, as well as compilation. This is the 
+foundation of coding with Java and getting things to work. 
+
+Java 
+  1. What does “strong typed” mean?
+    In Java you must declare every variable with a data type. 
+    
+  2.   Explain to a non-technical friend the difference in how compilation works in Java and JavaScript.
+    Computers use 1's and 0's to operate. Thats all they read or understand. Humans read in letters, words
+  , numbers, functions, etc. Compilation allows us to write out whatever we want, and have it decoded
+  into the 1's and 0's that the computer can understand. Java compiles its code and it is run on a virtual
+  machine, whereas JavaScripts code is run directly on the browser. JavaScript code is all text, whereas
+  Java code must be compiled. 
+    
