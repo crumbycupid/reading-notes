@@ -1,0 +1,21 @@
+This lesson is important as a refresher to loops and to see how different loops and methods work in Java. Also to understand packages, what they are, 
+and how they function in Java. 
+
+Questions
+
+Which loops use a loop counter?
+  All may use a loop counter. For, while, do while. 
+
+Describe 3 built-in methods for Arrays.
+  public static void fill (int[]a, int value), assigns the specified int value to each element of the array of int's.
+  public static void sort(Object[]a), sorts the array of elements in ascending order based on the natural ordering of its elements. 
+  public static int binarySearch(Object[]a, Object key, searches the array of Object using the binary search algorithim. 
+
+Use an analogy to explain Built-In packages. Give examples.
+  Built in packages are just packages that already come with the jdk. ex. (java.util, java.time). These packages are just conatainers, as the name
+  implies. It hold groups of other code which can be brought into existing code.
+  
+  
+  tutorialspoint.com
+  programiz.com
+  baeldung.com
