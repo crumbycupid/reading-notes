@@ -1,0 +1,32 @@
+This lesson is imporatant to understand file structure and use of naming conventions in Java. Also for use of the understanding of errors, and the call
+stack. 
+
+Primatives vs Objects
+  Primatives are faster and require less memory than do objects. primatives, variables, live in the stack, and are easy to access and operate. Objects
+   live on the heap and require much more memory to access. Every primative corresponds to a reference type. "Every object contains a single value of the
+   corresponding primative type". These wrapper classes are immutable, meaning they may not change once the object is created, and they are final, meaning
+   they can't be inherited. Auto -unboxing is the process of converting a primative type to a reference one. 
+   
+   primativeTypesAndValues https://docs.oracle.com/javase/specs/jvms/se7/html/jvms-2.html#jvms-2.3.4
+   
+ Exceptions
+   An exception, or exceptional event is one that disrupts the normal flow of operation of a program. 
+   When an error occurs in a method, an object is created called an exception object, which contains information about the error. This is handed to the 
+   runtime which is called "throwing an exception". The runtime then searches through the call stack to find a block of code that can handle that exception.
+   That block of code is call an exception handler. The chosen handler "catches" the exception. If no handler is found that can handle the code, then it 
+   terminates. 
+   
+   Checked exceptions are exceptions that are planned for, and that is anticipated in the code. They are subject to the catch or specify requirement. 
+   Something like inputing an incorrect file name, in the system can return to the user to select a valid file name. 
+   Errors, occur external to the file and are usually unaccounted for and cant be recovered from, i.e. hardware or system malfunctions.
+   Runtime exceptions are usually unaccounted for, and usually appear in the form of logic errors and improper use of API. 
+   
+ Scanners
+  "Objects of type Scanner are useful for breaking down formatted input into tokens and translating individual tokens according to their data type."
+  
+  
+  ref
+  https://docs.oracle.com/javase/tutorial/essential/io/scanning.html
+  https://docs.oracle.com/javase/tutorial/essential/exceptions/catchOrDeclare.html
+  https://www.baeldung.com/java-primitives-vs-objects
+   
