@@ -1,0 +1,60 @@
+Spring security is simply a authentication and access framework. It provides authentication and authorization to java applications. 
+
+AUTHENTICATION VS ACCESS CONTROL
+
+An authentication manager can
+  verify the input represents a valid principle
+  throw an error if it believes the input represents an invalid principle
+  return null if it cannot decide. 
+  
+  An authentication exception is a runtime exeception that is usuall handled in a generic way, depending on the style or purspose of the application. 
+  An authorization provider has an extra method allowing the call to query whether it supports a specific autorization type. 
+  
+  example. 
+  
+  public interface AuthenticationProvider {
+
+	Authentication authenticate(Authentication authentication)
+			throws AuthenticationException;
+
+	boolean supports(Class<?> authentication);
+}
+
+The Class<?> argument in the supports() method is really Class<? extends Authentication>.
+
+Authentication manager builder is a configuration helper for setting up in-memory, JDBC, or LDAP user details or for adding a custom UserDetailsService.
+
+example of authentication manager. 
+
+@Configuration
+public class ApplicationSecurity extends WebSecurityConfigurerAdapter {
+
+   ... // web stuff here
+
+  @Autowired
+  public void initialize(AuthenticationManagerBuilder builder, DataSource dataSource) {
+    builder.jdbcAuthentication().dataSource(dataSource).withUser("dave")
+      .password("secret").roles("USER");
+  }
+
+}
+
+After authentication, comes authorization. 
+AccessDecisionManager
+
+An AccessDecisionVoter considers an Authentication (representing a principal) and a secure Object, which has been decorated with ConfigAttributes:
+
+boolean supports(ConfigAttribute attribute);
+
+boolean supports(Class<?> clazz);
+
+int vote(Authentication authentication, S object,
+        Collection<ConfigAttribute> attributes);
+        
+A ConfigAttribute is the name of the user role like ROLE-ADMIN. 
+AccessDecisionManager is AffirmativeBased, meaning is any voters return affirmatively, access is granted. 
+
+Spring security on the web tier is based on servlet FILTERS. 
+
+  
+  
